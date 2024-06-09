@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHECKOUT</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id='checkoutpage' class='checkoutpage'>
+        <div id='yourpaymentdetails' class='yourpaymentdetails'>
+        Payment Details</div>
+        <input id='elements-checkbox/on' class='elements-checkbox/on' type='checkbox' placeholder=''  />
+        <div id='default' class='default'>
+        <button id='button' class='button'>
+        <div id='base' class='base'>
+        </div>
+        <button id='buttontext' class='buttontext'>
+        Pay with card</button>
+        </button>
+        </div>
+        <div id='savecarddataforfuturepayments' class='savecarddataforfuturepayments'>
+        Save card data for future payments</div>
+        <div id='switch' class='switch'>
+        <div id='rectangle24' class='rectangle24'>
+        </div>
+        <div id='ellipse1' class='ellipse1'>
+        </div>
+        </div>
+        <div id='frame29' class='frame29'>
+        <div id='input' class='input'>
+        <div id='rectangle2' class='rectangle2'>
+        </div>
+        <div id='inputname' class='inputname'>
+        Cardholder Name</div>
+        </div>
+        <div id='input3' class='input3'>
+        <div id='rectangle3' class='rectangle3'>
+        </div>
+        <div id='inputname2' class='inputname2'>
+        Card Number</div>
+        </div>
+        <div id='group28' class='group28'>
+        <div id='input5' class='input5'>
+        <div id='rectangle4' class='rectangle4'>
+        </div>
+        <div id='inputname3' class='inputname3'>
+        CVC</div>
+        </div>
+        <div id='dropdowninput' class='dropdowninput'>
+        <div id='rectangle5' class='rectangle5'>
+        </div>
+        <div id='inputname4' class='inputname4'>
+        Month</div>
+        <img id='icons-chevrondown' class='icons-chevrondown' src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABVSURBVHgB7dKxDQAhDANAb0pGYIRs/CM8QaJACCgCiAKf5CrIbgCI6Cqx/JYweZNvnyXCIZaB0Uio7gInHYzU5YpF2oxsLe+NbC/vjSgOETh/DNHLEqtWHUUD7KspAAAAAElFTkSuQmCC'/>
+        </img>
+        </div>
+        <div id='dropdowninput2' class='dropdowninput2'>
+        <div id='rectangle6' class='rectangle6'>
+        </div>
+        <div id='inputname5' class='inputname5'>
+        Year</div>
+        <img id='icons-chevrondown2' class='icons-chevrondown2' src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABVSURBVHgB7dKxDQAhDANAb0pGYIRs/CM8QaJACCgCiAKf5CrIbgCI6Cqx/JYweZNvnyXCIZaB0Uio7gInHYzU5YpF2oxsLe+NbC/vjSgOETh/DNHLEqtWHUUD7KspAAAAAElFTkSuQmCC'/>
+        </img>
+        </div>
+        </div>
+        </div>
+        <div id='paypal' class='paypal'>
+        <div id='rectangle1' class='rectangle1'>
+        </div>
+        <img id='paypal1' class='paypal1' src='data:image/png;base64,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'/>
+        </img>
+        </div>
+        <div id='applepay' class='applepay'>
+        <div id='rectangle52' class='rectangle52'>
+        </div>
+        <div id='creditcard' class='creditcard'>
+        Credit Card</div>
+        </div>
+        <div id='yourpaymentdetails2' class='yourpaymentdetails2'>
+        Shipping Information</div>
+        <div id='frame30' class='frame30'>
+        <div id='group30' class='group30'>
+        <div id='input11' class='input11'>
+        <div id='rectangle9' class='rectangle9'>
+        </div>
+        <div id='inputname6' class='inputname6'>
+        First Name</div>
+        </div>
+        <div id='input13' class='input13'>
+        <div id='rectangle10' class='rectangle10'>
+        </div>
+        <div id='inputname7' class='inputname7'>
+        Last Name</div>
+        </div>
+        </div>
+        <div id='input15' class='input15'>
+        <div id='rectangle11' class='rectangle11'>
+        </div>
+        <div id='inputname8' class='inputname8'>
+        Address</div>
+        </div>
+        <div id='input17' class='input17'>
+        <div id='rectangle12' class='rectangle12'>
+        </div>
+        <div id='inputname9' class='inputname9'>
+        Apartment, suite, etc (optional)</div>
+        </div>
+        <div id='input19' class='input19'>
+        <div id='rectangle13' class='rectangle13'>
+        </div>
+        <div id='inputname10' class='inputname10'>
+        City</div>
+        </div>
+        <div id='group282' class='group282'>
+        <div id='input21' class='input21'>
+        <div id='rectangle14' class='rectangle14'>
+        </div>
+        <div id='inputname11' class='inputname11'>
+        Zipcode</div>
+        </div>
+        <div id='dropdowninput3' class='dropdowninput3'>
+        <div id='rectangle15' class='rectangle15'>
+        </div>
+        <div id='inputname12' class='inputname12'>
+        Country</div>
+        <img id='icons-chevrondown3' class='icons-chevrondown3' src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABVSURBVHgB7dKxDQAhDANAb0pGYIRs/CM8QaJACCgCiAKf5CrIbgCI6Cqx/JYweZNvnyXCIZaB0Uio7gInHYzU5YpF2oxsLe+NbC/vjSgOETh/DNHLEqtWHUUD7KspAAAAAElFTkSuQmCC'/>
+        </img>
+        </div>
+        <div id='dropdowninput4' class='dropdowninput4'>
+        <div id='rectangle16' class='rectangle16'>
+        </div>
+        <div id='inputname13' class='inputname13'>
+        City</div>
+        <img id='icons-chevrondown4' class='icons-chevrondown4' src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABVSURBVHgB7dKxDQAhDANAb0pGYIRs/CM8QaJACCgCiAKf5CrIbgCI6Cqx/JYweZNvnyXCIZaB0Uio7gInHYzU5YpF2oxsLe+NbC/vjSgOETh/DNHLEqtWHUUD7KspAAAAAElFTkSuQmCC'/>
+        </img>
+        </div>
+        </div>
+        <div id='input27' class='input27'>
+        <div id='rectangle17' class='rectangle17'>
+        </div>
+        <div id='inputname14' class='inputname14'>
+        Optional</div>
+        </div>
+        </div>
+        <div id='savecontactinformation' class='savecontactinformation'>
+        Save contact information</div>
+        <div id='default2' class='default2'>
+        <div id='group4' class='group4'>
+        <input id='checkboxoff' class='checkboxoff' type='checkbox' placeholder=''  />
+        </div>
+        </div>
+        <div id='navbar' class='navbar'>
+        <div id='rectangle18' class='rectangle18'>
+        </div>
+        <div id='frame4' class='frame4'>
+        <div id='logo' class='logo'>
+        OPIO WEARS</div>
+        <div id='shop' class='shop'>
+        Home</div>
+        <div id='stories' class='stories'>
+        Category</div>
+        <div id='about' class='about'>
+        Sales!</div>
+        <div id='group6' class='group6'>
+        <img id='search' class='search' src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAARCAYAAADUryzEAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADRSURBVHgBrZIBEYMwDEU/KEBCHYAEJExCJSChEuZgkzAH3BSwKQAHzMGWHOlautL1Nt7dPziS/NAmBT5pSQ2pIj1IF9KEDBSpJz1Fo/feS3wT7jhLUSvdLVq+j5IX7czBISj0qSQ+xnI6+U2FNEryTBhg5xPy6EVvSiznuufV44rgHkr8CRvcSHVmfi35KwyWEaovxRznS9RhgMdix6gSxXYXojRegoabNT87uK2csbFMtssZbn198eiOOSbW6CCdNdabZ3JNUpg9TYYCv6NJ0wvOJTvb02PTHwAAAABJRU5ErkJggg=='/>
+        </img>
+        <div id='about2' class='about2'>
+        Search</div>
+        </div>
+        </div>
+        <div id='line1' class='line1'>
+        </div>
+        <div id='frame5' class='frame5'>
+        <div id='group42' class='group42'>
+        <div id='312' class='312'>
+        1</div>
+        <img id='vector' class='vector' src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAWCAYAAAAinad/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGNSURBVHgBrZRBTgJBEEV/1QyYiIl4Ascb4AnkAsbxBGJiiDvZGXa4Iqzcqiu8ASTunSPgCewj4MaYYFfZzTAKEhbT+hbTMzXp6l9dv5uwgV4rrdeqcqVKHSXUSZHZGZ13hyOzaQ5v+rG9pbdWsfdeo4PrhzFZ0CNX9dkvgjL0W2kyaJ+8rsXbaW/QPu6glLKKbarqeC0uyFzZTZRKRpS4fZquxWMYBu1iA+QfviyvpghGxCd+tCor6nwjIvCVqNx8B2dRVjQlngeq0oqUj4Rh8mpyVUR89HtlBbIizoJEKtJwr52fZEBi1d50758ylKB/kTYpwlnxzbkC2heKpyiL30NBYzWZIpnN8hLL0L0bGb+PK8kc9d5wVF7ZgsLI3L9ME6dsgnCmOzXezZV9uo5A3xCIm/tiP+QwT0Y2caNBOEbYzsuMvdsJahCKqiFQI1fmPCaiwXvGolNwfsQ42GMLpBJPCq+x62Q9xGMFy16bl/kXjy3jk5n5rRHI8tyYlM79dexuVoSh7jjSKf6bL5FFmJaPa08GAAAAAElFTkSuQmCC'/>
+        </img>
+        </div>
+        <div id='login' class='login'>
+        Login</div>
+        </div>
+        </div>
+        <div id='rectangle30' class='rectangle30'>
+        </div>
+        <button id='box-button' class='box-button'>
+        <div id='rectangle31' class='rectangle31'>
+        </div>
+        <div id='toggled' class='toggled'>
+        </div>
+        <div id='ups-uspssurepost' class='ups-uspssurepost'>
+        UPS/USPS Surepost </div>
+        <div id='-7businessdays' class='-7businessdays'>
+        4-7 Business Days</div>
+        </button>
+        <div id='rectangle312' class='rectangle312'>
+        </div>
+        <div id='group7' class='group7'>
+        <input id='checkboxoff2' class='checkboxoff2' type='checkbox' placeholder=''  />
+        </div>
+        <button id='box-button2' class='box-button2'>
+        <div id='rectangle313' class='rectangle313'>
+        </div>
+        <div id='default3' class='default3'>
+        <div id='group8' class='group8'>
+        <input id='checkboxoff3' class='checkboxoff3' type='checkbox' placeholder=''  />
+        </div>
+        </div>
+        <div id='upsgroundshipping' class='upsgroundshipping'>
+        UPS Ground Shipping </div>
+        <div id='-5businessdays' class='-5businessdays'>
+        3-5 Business Days</div>
+        </button>
+        <div id='default4' class='default4'>
+        <div id='group9' class='group9'>
+        <input id='checkboxoff4' class='checkboxoff4' type='checkbox' placeholder=''  />
+        </div>
+        </div>
+        <div id='title' class='title'>
+        Checkout</div>
+        </div>
+        
+</body>
+</html>

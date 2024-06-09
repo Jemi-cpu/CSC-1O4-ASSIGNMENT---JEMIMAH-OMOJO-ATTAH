@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff; /* White background */
+    color: #3E2723; /* Brown text color */
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    color: #3E2723; /* Brown color */
+}
+
+.converter {
+    margin-top: 20px;
+    display: inline-block;
+    text-align: left;
+    padding: 20px;
+    border: 2px solid #3E2723; /* Brown border */
+    border-radius: 10px;
+    background-color: #FFC0CB; /* Pink background */
+}
+
+.input-field, .output-field {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin: 5px 0 10px 0;
+    border: 2px solid #3E2723; /* Brown border */
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #FFC0CB; /* Pink background */
+    border: 2px solid #3E2723; /* Brown border */
+    color: #3E2723; /* Brown text color */
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #FFB6C1; /* Lighter pink on hover */
+}
+
+input[readonly] {
+    background-color: #F5F5F5; /* Light grey background for readonly input */
+    color: #3E2723; /* Brown text color */
+}
